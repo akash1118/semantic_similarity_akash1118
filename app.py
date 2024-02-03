@@ -7,7 +7,7 @@ app = Flask(__name__)
 def health():
     return "Server is Up and Running"
 
-@app.route('/semantic-similarity', methods = ['POST'])
+@app.route('/semanticsimilarity', methods = ['POST'])
 def get_semantic_similarity():
     
     try:
